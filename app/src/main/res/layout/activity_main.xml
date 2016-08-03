@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#6A1B9A"
+    tools:context="com.example.android.businesscard.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingTop="8dp"
+        android:background="@android:color/white"
+        android:src="@drawable/dragon_fly" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Little Gems by Kari"
+        android:textSize="36sp"
+        android:fontFamily="cursive"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="123 Main Street"
+        android:textSize="24sp"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Albany, NY 12205"
+        android:textSize="24sp"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="littlegemsbykari@yahoo.com"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="https://www.facebook.com/LittleGemsbyKari"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="8dp"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:text="Little Gems was originally a rabbitry that my family and I ran in Northern NY. I'm now located in Colonie, NY and there isn't as much room for rabbits here, so my love and creativity has been focused into crafting! I crochet, make jewelry, work with melt and pour soap, sculpt polymer clay, and do paper crafts."/>
+
+</LinearLayout>
